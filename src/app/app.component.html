@@ -1,32 +1,32 @@
 <header>
     <nav class="navbar navbar-expand-lg" id="topnavbar">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><i class="fas fa-home"></i></a>
+            <a class="navbar-brand" routerLink="home"><i class="fas fa-home"></i></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
             <div class="collapse navbar-collapse" id="navbarScroll">
                 <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Biografia</a>
+                        <a class="nav-link active" aria-current="page" routerLink="biografy">Biografia</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Banda</a>
+                        <a class="nav-link " aria-current="page" routerLink="band">Banda</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Discografia</a>
+                        <a class="nav-link " aria-current="page" routerLink="discografy">Discografia</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Galeria</a>
+                        <a class="nav-link " aria-current="page" routerLink="gallery">Galeria</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Tienda</a>
+                        <a class="nav-link " aria-current="page" routerLink="store">Tienda</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Agenda</a>
+                        <a class="nav-link " aria-current="page" routerLink="schedule">Agenda</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Contacto</a>
+                        <a class="nav-link " aria-current="page" routerLink="contact">Contacto</a>
                     </li>
 
 
@@ -41,21 +41,16 @@
                         <a class="navbar-brand" href="https://www.instagram.com/hdezjoseluis/?hl=es"><i class="fab fa-instagram"></i></a>
                     </li>
                 </ul>
-
-
-
-
             </div>
         </div>
     </nav>
 </header>
+
+<section class="ae-container-fluid rk-main">
+    <router-outlet></router-outlet>
+</section>
 <footer>
-
-
-
     <nav class="navbar navbar-expand-lg fixed-bottom " id="copyrights">
-
         Copyright &Payan 2021;
-
     </nav>
 </footer>
