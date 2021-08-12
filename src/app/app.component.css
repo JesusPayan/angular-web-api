@@ -1,0 +1,45 @@
+/*Elements  */
+
+#topnavbar {
+    background-color: black;
+    color: white;
+}
+
+#liks-info {
+    background-color: black;
+}
+
+#copyrights {
+    background-color: black;
+    font-size: 10px;
+}
+
+.navbar-brand,
+a.nav-link {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+
+#social-networks.nav-items {
+    size: 30px;
+}
+
+
+/* Behavior */
+
+.navbar-brand:hover {
+    color: whitesmoke;
+}
+
+.nav-link:hover {
+    /* background-color: blue; */
+    color: white;
+    /*font-size: 18px;*/
+}
+
+.dropdown-item:hover {
+    border-radius: 0px;
+    background-color: blue;
+    color: white;
+}
