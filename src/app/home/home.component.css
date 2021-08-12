@@ -11,3 +11,8 @@
     color: white;
     text-shadow: 2px 2px 15px gray;
 }
+
+.img-fluid {
+    width: 70%;
+    height: 400px;
+}
